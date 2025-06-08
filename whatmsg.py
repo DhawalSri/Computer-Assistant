@@ -40,85 +40,85 @@ def takeCommand():
 def wmsg(query):
     speak("sending message")
     #msg = query
-    if "govind" in query:
+    if "NAME" in query:
         query = query.replace("message","")
-        query = query.replace("govind","")
+        query = query.replace("NAME","")
         query = query.replace("to","")
         msg = query
-        kit.sendwhatmsg_instantly("+919235148944", msg)
+        kit.sendwhatmsg_instantly("NUMBER", msg)
         sleep(1.0)
         pyautogui.click(1791,973)
 
-    if "ashutosh" in query or "ashu" in query:
+    if "NAME" in query or "ALIAS" in query:
         query = query.replace("message", "")
-        query =  query.replace("asutosh", "")
-        query = query.replace("ashu", "")
+        query =  query.replace("NAME", "")
+        query = query.replace("ALIAS", "")
         query = query.replace("to", "")
         msg = query
-        kit.sendwhatmsg_instantly("+918736815344", msg)
+        kit.sendwhatmsg_instantly("NUMBER", msg)
         sleep(1.0)
         pyautogui.click(1791,973)
 
-    elif "disha" in query:
+    elif "NAME" in query:
         query = query.replace("message","")
-        query = query.replace("disha","")
+        query = query.replace("NAME","")
         query = query.replace("to","")
         msg = query
-        kit.sendwhatmsg_instantly("+919264949086", msg)
+        kit.sendwhatmsg_instantly("NUMBER", msg)
         sleep(1.0)
         pyautogui.click(1791,973)
 
-    if "steve" in query:
+    if "NAME" in query:
         query = query.replace("message","")
-        query = query.replace("steve","")
+        query = query.replace("NAME","")
         query = query.replace("to","")
         msg = query
-        kit.sendwhatmsg_instantly("+917408912031", msg)
+        kit.sendwhatmsg_instantly("NUMBER", msg)
         sleep(1.0)
         pyautogui.click(1791,973)
 
-    if "naina" in query:
+    if "NAME" in query:
         query = query.replace("message","")
-        query = query.replace("naina","")
+        query = query.replace("NAME","")
         query = query.replace("to","")
         msg = query
-        kit.sendwhatmsg_instantly("+916392152694", msg)
+        kit.sendwhatmsg_instantly("NUMBER", msg)
         sleep(1.0)
         pyautogui.click(1791,973)
 
-    if "papa" in query:
+    if "NAME" in query:
         query = query.replace("message","")
-        query = query.replace("papa","")
+        query = query.replace("NAME","")
         query = query.replace("to","")
         msg = query
-        kit.sendwhatmsg_instantly("+919415195860", msg)
+        kit.sendwhatmsg_instantly("NUMBER", msg)
         sleep(1.0)
         pyautogui.click(1791,973)
 
-    if "misthi" in query or "mishthi" in query:
+    if "NAME" in query or "ALIAS" in query:
         query = query.replace("message","")
-        query = query.replace("misthi","")
-        query = query.replace("mishthi","")
+        query = query.replace("NAME","")
+        query = query.replace("ALIAS","")
         query = query.replace("to","")
         msg = query
-        kit.sendwhatmsg_instantly("+919453947765", msg)
+        kit.sendwhatmsg_instantly("NUMBER", msg)
         sleep(1.0)
         pyautogui.click(1791,973)
 
-    if "niyati" in query:
+    if "NAME" in query:
         query = query.replace("message","")
-        query = query.replace("niyati","")
+        query = query.replace("NAME","")
         query = query.replace("to","")
         msg = query
-        kit.sendwhatmsg_instantly("+917985990914", msg)
+        kit.sendwhatmsg_instantly("NUMBER", msg)
         sleep(1.0)
         pyautogui.click(1791,973)
-    if "anurag" in query:
+    if "NAME" in query:
         query = query.replace("message","")
-        query = query.replace("anurag","")
+        query = query.replace("NAME","")
         query = query.replace("to","")
         msg = query
-        kit.sendwhatmsg_instantly("+919341636364", msg)
+        kit.sendwhatmsg_instantly("NUMBER", msg)
         sleep(1.0)
         pyautogui.click(1791,973)
 
